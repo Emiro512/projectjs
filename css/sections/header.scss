@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .header_contet {
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    border-radius: 50%;
+    margin-top: 30vh;
+    opacity: 0;
+    background: rgba(153,196,212,1);
+    background: -moz-linear-gradient(-45deg, rgba(153,196,212,1) 0%, rgba(153,196,212,0.97) 17%, rgba(81,152,176,0.94) 38%, rgba(39,96,112,0.87) 79%, rgba(99,187,219,0.83) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(153,196,212,1)), color-stop(17%, rgba(153,196,212,0.97)), color-stop(38%, rgba(81,152,176,0.94)), color-stop(79%, rgba(39,96,112,0.87)), color-stop(100%, rgba(99,187,219,0.83)));
+    background: -webkit-linear-gradient(-45deg, rgba(153,196,212,1) 0%, rgba(153,196,212,0.97) 17%, rgba(81,152,176,0.94) 38%, rgba(39,96,112,0.87) 79%, rgba(99,187,219,0.83) 100%);
+    background: -o-linear-gradient(-45deg, rgba(153,196,212,1) 0%, rgba(153,196,212,0.97) 17%, rgba(81,152,176,0.94) 38%, rgba(39,96,112,0.87) 79%, rgba(99,187,219,0.83) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(153,196,212,1) 0%, rgba(153,196,212,0.97) 17%, rgba(81,152,176,0.94) 38%, rgba(39,96,112,0.87) 79%, rgba(99,187,219,0.83) 100%);
+    background: linear-gradient(135deg, rgba(153,196,212,1) 0%, rgba(153,196,212,0.97) 17%, rgba(81,152,176,0.94) 38%, rgba(39,96,112,0.87) 79%, rgba(99,187,219,0.83) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99c4d4', endColorstr='#63bbdb', GradientType=1 );
+
+    .header_text {
+      font-family: 'Dancing Script', cursive;
+      font-weight: 700;
+      font-size: 60px;
+      color: lightgoldenrodyellow;
+      opacity: 0;
+      padding: 20px
+    }
+  }
+}

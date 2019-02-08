@@ -1,0 +1,21 @@
+//layouts
+@import "_misc/fonts.scss";
+@import "_misc/normalize.scss";
+
+//sections
+@import "sections/header.scss";
+@import "sections/mainContent.scss";
+@import "sections/allAlbsSection.scss";
+@import "sections/profileAlbumSection.scss";
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+}
+
+*,
+*::before,
+*::after
+{
+  box-sizing: border-box;
+}
